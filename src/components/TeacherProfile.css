@@ -1,0 +1,103 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #f5f8fc;
+    min-height: 91vh;
+  }
+  
+  .profile-card {
+    background: #c3e3c8;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .teacher-name {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .subject, .bio {
+    margin-bottom: 1rem;
+    color: #555;
+    line-height: 1.4;
+  }
+  
+  .video-placeholder {
+    background: #e1e9f0;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    color: #777;
+  }
+  
+  .course-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .course-list li {
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  .booking {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .course-select {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .book-btn {
+    padding: 0.5rem 1rem;
+    background: #6f001d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .book-btn:hover {
+    background: #5a0016;
+  }
+  .video-intro {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #e1e9f0;
+}
+
+.video-intro img.video-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.video-intro .play-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
