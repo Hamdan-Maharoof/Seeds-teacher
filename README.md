@@ -68,14 +68,6 @@ seeds-teacher-profile/
 
 ---
 
-## 📸 Screenshots
-
-Include your own screenshots in the `screenshots/` folder. Example:
-
-- `desktop-view.png` — Desktop layout
-- `mobile-view.png` — Mobile layout
-
----
 
 ## 📦 Deployment
 
